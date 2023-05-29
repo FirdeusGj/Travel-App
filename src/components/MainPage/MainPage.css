@@ -1,5 +1,5 @@
 section{
-    background: url('https://rare-gallery.com/uploads/posts/351193-4k-wallpaper.jpg');
+    background-image:url('https://rare-gallery.com/uploads/posts/351193-4k-wallpaper.jpg');
     height: 100vh;
     background-position:center;
     background-repeat: no-repeat;
@@ -9,9 +9,8 @@ section{
     justify-content: center;
 }
 .mainPage__img{
-    height:50vh;
-    top:35vh;
-    right:0;
+    width:100%;
+    height:auto;
 }
 .section__wrapper{
     margin-top:20vh;
@@ -25,4 +24,7 @@ section{
     justify-content: center;
     align-items: center;
     width:100%;
+}
+.section__ul{
+    list-style-type: none;
 }
