@@ -3,6 +3,6 @@ import './Cheapest.css'
 
 export default function Cheapest() {
   return (
-    <div>Cheapest</div>
+    <div className='cheap'>Cheapest</div>
   )
 }
