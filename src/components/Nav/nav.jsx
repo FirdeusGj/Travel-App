@@ -8,7 +8,7 @@ export default function nav() {
         <div>
           <img
             className="nav__logo"
-            src="https://cdn-icons-png.flaticon.com/512/45/45873.png"
+            src="https://cdn-icons-png.flaticon.com/512/4283/4283062.png"
             alt="AirplaneLogo"
           />
         </div>

@@ -8,7 +8,7 @@ section {
   display: flex;
   justify-content: center;
 }
-.mainPage__img {
+.mainPage__img{
   width: 100%;
   height: auto;
 }

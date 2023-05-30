@@ -25,23 +25,35 @@ nav {
   display: flex;
 }
 .nav__li {
-  margin: 0 10px;
+  margin: 0 2px;
   font-size: 1.3rem;
   align-items: center;
   display: flex;
   cursor: pointer;
   padding: 10px;
   border-radius: 30px;
-  transition: all 200ms ease-in-out;
+  color:#242424;
+  transition: all 100ms ease-in-out;
 }
 .nav__li:hover {
-  background-color: rgba(255, 255, 255, 0.337);
+  background-color: rgba(0, 0, 0, 0.067);
 }
 .nav__li:nth-of-type(4) {
-  border: 3px solid black;
-  padding: 7px;
+  padding: 10px;
+  text-decoration: none;
+  color:white;
+  background-color: black;
 }
-svg {
+.nav__li:nth-of-type(4) svg{
+  fill:white;
+}
+.nav__li:nth-of-type(4):hover{
+  background-color: #141818;
+}
+nav svg{
+  fill:#242424;
+}
+svg{
   height: 1.3rem;
   width: 1.3rem;
   margin-right: 5px;
