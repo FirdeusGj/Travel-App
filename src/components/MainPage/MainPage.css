@@ -1,4 +1,4 @@
-section {
+.mainPage{
   background-image:linear-gradient(to top, white, transparent 20%), url("https://rare-gallery.com/uploads/posts/351193-4k-wallpaper.jpg");
   height: 100vh;
   background-position: center;
@@ -41,8 +41,16 @@ section {
   line-height: 0;
   color: transparent;
   font-family: Arial, Helvetica, sans-serif;
+}
+.stroke__text1{
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
+  color:transparent;
+}
+.stroke__text2{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color:transparent;
 }
 .section__wrapper {
   margin-top: 15vh;
