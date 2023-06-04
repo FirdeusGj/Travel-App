@@ -1,5 +1,6 @@
 import './App.css';
 import Cheapest from './components/Cheapest/Cheapest';
+import Countries from './components/Countries/Countries';
 import MainPage from './components/MainPage/MainPage';
 import Nav from './components/Nav/nav'
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Nav/>
       <MainPage/>
       <Cheapest/>
+      <Countries/>
     </div>
   );
 }

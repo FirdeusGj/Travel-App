@@ -4,3 +4,22 @@
     max-width: 95vw;
     margin:0 auto;
 }
+.cheap__hotel{
+    height:200px;
+}
+.hotel__content{
+    position: relative;
+    height: 2rem;
+    width: 2rem;
+}
+.cheap__text{
+    color:white;
+    left:1px;
+}
+.cheap__text>h1{
+    position: absolute;
+    top:1px;
+}
+.cheap__text>p{
+    position: absolute;
+}
