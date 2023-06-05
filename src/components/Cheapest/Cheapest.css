@@ -5,21 +5,25 @@
     margin:0 auto;
 }
 .cheap__hotel{
-    height:200px;
+    width:100%;
+    height: auto;
+}
+.cheap__hotel--wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 .hotel__content{
     position: relative;
-    height: 2rem;
-    width: 2rem;
+    width: 24%;
+    overflow: hidden;
 }
-.cheap__text{
-    color:white;
-    left:1px;
-}
-.cheap__text>h1{
+.hotel__content>p{
     position: absolute;
-    top:1px;
+    bottom: 1px;
 }
-.cheap__text>p{
+.hotel__content>h1{
     position: absolute;
+    left:1rem;
 }
