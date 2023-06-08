@@ -1,6 +1,9 @@
 import React from "react";
 import "./Cheapest.css";
-import Hotel from "../Images/hotel.jpg";
+import Hotel1 from "../Images/hotel.jpg";
+import Hotel2 from "../Images/hotel2.jpg";
+import Hotel3 from "../Images/hotel3.png";
+import Hotel4 from "../Images/hotel4.jpg";
 
 export default function Cheapest() {
   return (
@@ -10,35 +13,42 @@ export default function Cheapest() {
           <h1>
             <span className="stroke__text2">Cheapest Deals</span>
           </h1>
+          <p>
+            Some of the best hotels that have the cheapest deals
+          </p>
         </div>
         <div className="cheap__hotel--wrapper">
           <div className="hotel__content">
-              <h1>Lorem ipsum dolor.</h1>
+              <h1>Hotel 1</h1>
               <p>
-                <span>$29.99</span> $19.99
+                <span>$79.99</span> $39.99
               </p>
-            <img className="cheap__hotel" src={Hotel} alt="" />
+              <button>View More</button>
+            <img className="cheap__hotel" src={Hotel1} alt="" />
           </div>
           <div className="hotel__content">
-              <h1>Lorem ipsum dolor.</h1>
+              <h1>Hotel 2</h1>
               <p>
-                <span>$29.99</span> $19.99
+                <span>$119.50</span> $59.00
               </p>
-            <img className="cheap__hotel" src={Hotel} alt="" />
+              <button>View More</button>
+            <img className="cheap__hotel" src={Hotel2} alt="" />
           </div>
           <div className="hotel__content">
-              <h1>Lorem ipsum dolor.</h1>
+              <h1>Hotel 3</h1>
               <p>
-                <span className="offer">$29.99</span> $19.99
+                <span className="offer">$82.95</span> $45.95
               </p>
-            <img className="cheap__hotel" src={Hotel} alt="" />
+              <button>View More</button>
+            <img className="cheap__hotel" src={Hotel3} alt="" />
           </div>
           <div className="hotel__content">
-              <h1>Lorem ipsum dolor.</h1>
+              <h1>Hotel 4</h1>
               <p>
-                <span>$29.99</span> $19.99
+                <span>$119.50</span> $55.95
               </p>
-            <img className="cheap__hotel" src={Hotel} alt="" />
+              <button>View More</button>
+            <img className="cheap__hotel" src={Hotel4} alt="" />
           </div>
         </div>
       </div>
