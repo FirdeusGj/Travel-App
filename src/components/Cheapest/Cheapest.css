@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 .cheap{
     width:160vh;
     max-width: 95vw;
     margin:0 auto;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .cheap__hotel{
     width:100%;
@@ -61,6 +63,7 @@
     background-color: rgba(0, 255, 255, 0.399);
     border-radius:1rem;
     padding: 10px;
+    font-weight: bold;
     border: none;
     cursor: pointer;
 }
@@ -78,4 +81,10 @@
     color:gray;
     font-size: 1rem;
     transition: all 200ms ease-in-out;
+}
+.cheap__content--texts>h1{
+    font-size: 3rem;
+}
+.cheap__content--texts>p{
+    font-size:1.5rem;
 }

@@ -52,6 +52,11 @@
   -webkit-text-stroke-color: black;
   color:transparent;
 }
+.stroke__cheap{
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: rgb(8, 11, 11);
+  color:rgba(0, 253, 253, 0.199)
+}
 .section__wrapper {
   margin-top: 15vh;
   display: flex;

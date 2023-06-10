@@ -9,12 +9,12 @@ export default function Cheapest() {
   return (
     <section className="cheap">
       <div className="cheap__content--wrapper">
-        <div>
+        <div className="cheap__content--texts">
           <h1>
-            <span className="stroke__text2">Cheapest Deals</span>
+            <span className="stroke__cheap">Cheapest Deals</span>
           </h1>
           <p>
-            Some of the best hotels that have the cheapest deals
+            Some of the best hotels that have the cheapest deals.
           </p>
         </div>
         <div className="cheap__hotel--wrapper">
