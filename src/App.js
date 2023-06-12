@@ -1,8 +1,9 @@
-import './App.css';
-import Cheapest from './components/Cheapest/Cheapest';
-import Countries from './components/Countries/Countries';
-import MainPage from './components/MainPage/MainPage';
-import Nav from './components/Nav/nav'
+import { Route, Router, Routes } from "react-router-dom";
+import "./App.css";
+import Cheapest from "./components/Cheapest/Cheapest";
+import Countries from "./components/Countries/Countries";
+import MainPage from "./components/MainPage/MainPage";
+import Nav from "./components/Nav/nav";
 function App() {
   return (
     <div className="App">
